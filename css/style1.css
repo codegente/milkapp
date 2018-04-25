@@ -1,0 +1,624 @@
+.navbarr{
+	background-color:#00c9ff;
+	padding-bottom:70px;
+}
+
+.logoo{
+	width:220px;
+	height:202px;
+	margin: 0 auto;
+}
+
+.heading{
+	color:black;
+	text-align:center;
+}
+
+.loginbutton{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.button1 {
+    /* background-color: #66E0F5; */ /* lightblue */
+    background-color: #4ec1e7;
+	border: none;
+/*     color: #391ad2; */
+	color:#563596;
+/*     padding: 20px; */
+	padding:15px 42px 15px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: #563596; /* purple */
+    border: none;
+    color: white;
+    padding:15px 28px 15px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button3 {border-radius: 8px;}
+
+.footer{
+	background-image: url("img/cow.jpg") repeat center;
+}
+
+.footer-image-container {
+/*   margin: 0 auto; */
+  width: 100%;
+/*   height: 1417px; */
+  }
+
+  .footer-image {
+  position: absolute;
+  bottom: 0;
+/*   z-index: -1; */
+  }
+
+@media screen and (min-width:410px) and (max-width:420px){
+		.heading{
+			margin-top:40px;
+		}
+		.loginbutton{
+			margin-left:50px;
+			margin-top:27px;
+		}
+}
+
+@media screen and (min-width:372px) and (max-width:379px){
+		.heading{
+			margin-top:32px;
+		}
+		.loginbutton{
+			margin-left:30px;
+		}
+}
+
+@media screen and (min-width:315px) and (max-width:324px){
+		.footer-image{
+			    height: 163px;
+				width: 100%;
+				position:unset;
+		}
+		.loginbutton{
+			margin-left:0px;
+			margin-right:0px;
+		}
+}
+
+@media screen and (min-width:381px) and (max-width:385px){
+		
+		.loginbutton{
+			margin-left:35px;
+		}
+} 
+
+@media screen and (min-width:358px) and (max-width:361px){
+		.heading{
+			margin-top:26px;
+		}
+		.loginbutton{
+			margin-left:23px;
+		}
+}
+
+/* ------------style for ADD PAYMENT-------------------- */
+
+.paymenthead{
+		background-color:
+}
+
+.verifyhead{
+	text-align:center;
+    margin-top: -20px;
+}
+
+.paymentnavbar{
+	background-color:#00c9ff;
+	padding-bottom:45px;
+}
+
+.paymnt{
+	margin: -21px -15px;
+	background-color: #6890ff;
+	padding-bottom: 2px;
+	color:white;
+	}
+
+.glyphicon{
+	top:4px;
+	font-size:20px;
+}
+
+.buffmilk{
+	text-align:center;
+	margin-top:32px;
+}
+
+.litre{
+	color:#2db0d4;
+}
+
+.milkbot{
+	/* height: 120px;
+	margin-top: 6px; */
+	width:123px;
+}
+
+.rightquantity{
+border-color: blue;
+margin-left: 127px;
+border-style: dashed none dashed none;
+width: 154px;
+height: 102px;
+margin-top: -104px;
+/* margin-left: 129px; */
+text-align: center;
+}
+
+.price{
+	margin-top: -13px;
+}
+
+.secondhead{
+	background-color: #6890ff;
+	padding-bottom: 2px;
+	color:white;
+	margin-left: -16px;
+	margin-right: -15px;
+}
+
+.cart{
+	margin-top:5px;
+	
+}
+
+.head2{
+	text-align:left;
+    margin-top: 3px;
+	color:black;
+}
+
+.cart1{
+/* 	float:left; */
+	color:#2db0d4;
+} 
+
+.cart2{
+	float:right;
+	margin-top:-28px;
+}
+
+
+.address{
+	background-color: #6890ff;
+	color:white;
+	margin-left: -16px;
+	margin-right: -15px;
+}
+
+.address1{
+	margin-top:-15px;
+	
+}
+
+.glyhome{
+	top: 4px;
+	font-size: 26px;
+}
+
+.address2{
+		color:black;
+		margin-left: 17px;
+}
+
+.address3{
+	text-align:center;
+}
+
+.glytag{
+	top: 4px;
+	font-size: 26px;
+	display: inline-block;
+	transform: rotate(90deg);
+}
+
+.walletfoot{
+	background-color: #6890ff;
+	color:white;
+	padding-right: 42px;
+	border-radius: 0px;
+	padding-bottom: 14px;
+	font-size: 19px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.walletfoot1{
+	font-size: 19px;
+}
+
+.glyarrow{
+	float:right;
+	margin-right: -32px;
+}
+
+@media screen and (min-width:410px) and (max-width:420px){
+		.milkbot{
+			width: 167px;
+		}
+		.price{
+			margin-top:0px;
+		}
+		.rightquantity{
+			margin-left: 179px;
+			width: 168px;
+			height: 136px;
+			margin-top: -140px;
+		}
+		.walletfoot{
+			padding-right: 63px;
+			padding-bottom: 22px;
+		}
+		.walletfoot1{
+			font-size:24px;
+		}
+		.glyarrow{
+			margin-right: -37px;
+			font-size: 23px;
+		}		
+}
+
+@media screen and (min-width:370px) and (max-width:377px){
+		.milkbot{
+			width: 155px;
+		}
+		.price{
+			margin-top:0px;
+		}
+		.rightquantity{
+			margin-left: 160px;
+			width: 160px;
+			height: 130px;
+			margin-top: -133px;
+		}
+		.walletfoot{
+			padding-right: 39px;
+			padding-bottom: 22px;
+		}
+		.walletfoot1{
+			font-size:23px;
+		}
+		.glyarrow{
+			margin-right: -37px;
+			font-size: 23px;
+		}		
+}
+
+@media screen and (min-width:310px) and (max-width:326px){
+		.milkbot{
+			width: 121px;
+		}
+		.price{
+			margin-top:-14px;
+		}
+		.rightquantity{
+			margin-left: 128px;
+			width: 141px;
+			height: 99px;
+			margin-top: -102px;
+		}
+		.walletfoot{
+			padding-right: 40px;
+			padding-bottom: 22px;
+		}
+		.walletfoot1{
+			font-size:19px;
+		}
+		.glyarrow{
+			margin-right: -33px;
+			font-size: 21px;
+		}		
+}
+
+@media screen and (min-width:381px) and (max-width:385px){
+		.walletfoot{
+			padding-right: 62px;
+			padding-bottom: 22px;
+		}
+		.walletfoot1{
+			font-size:22px;
+		}
+		.glyarrow{
+			margin-right: -33px;
+			font-size: 21px;
+		}		
+}
+
+@media screen and (min-width:358px) and (max-width:361px){
+		.walletfoot{
+			padding-right: 52px;
+			padding-bottom: 22px;
+		}
+		.walletfoot1{
+			font-size:21px;
+		}
+		.glyarrow{
+			margin-right: -33px;
+			font-size: 21px;
+		}		
+}
+
+
+/*------------------ css for search products----------- */
+
+.searchpro{
+	margin: -21px -15px;
+	background-color: #6890ff;
+	color: white;
+	height: 83px;
+}
+
+.search{
+	text-align:left;
+	margin-top:9px;
+}
+
+.search1{
+	float: right;
+	margin-top: -46px;
+}
+
+.searchboxx{
+		background-color:#00c9ff;
+		margin-top:20px;
+		border-color:#00c9ff;
+}
+
+.searchbox2{
+	width: 200px;
+}
+
+.searchbut1{
+	float: right;
+margin-top: -32px;
+color: white;
+}
+
+
+.searchimg{
+	width:132px;
+	
+	
+}
+.searchimg2{
+	width: 132px;
+margin-left: 144px;
+margin-top: -139px;
+	
+}
+
+.drop{
+	margin-left: 27px;
+margin-top: -18px;
+}
+
+.drop2{
+	margin-left: 171px;
+	margin-top: -60px;
+}
+
+.rowimg2{
+	margin-left: 10px;
+}
+
+.backgrnd{
+			background-color:#00c9ff;
+			    padding-bottom: 0px;
+    margin-left: -17px;
+    margin-right: -14px;
+}
+
+.bttn_calender{
+	background-color:#6890ff;
+	height:76px;
+	width:102px;
+	border-color:#6890ff;
+}
+
+.bttn_sub{
+	background-color:#6890ff;
+	height:76px;
+	margin-left: -1px;
+	border-color: #6890ff;
+}
+
+.bttn_wallet
+{
+	background-color:#6890ff;
+	float:right;
+	width:104px;
+	height:76px;
+	border-color: #6890ff;
+}
+
+@media screen and (min-width:410px) and (max-width:416px){
+	.backgrnd{
+			margin-top:73px;
+			padding-bottom:0px;
+			}
+	.rowimg2 {
+    margin-left: 53px;
+			}
+	.drop {
+    margin-left: 63px;
+	}	
+	.drop2 {
+    margin-left: 209px;
+	}
+	.bttn_calender {
+    height: 86px;
+    width: 128px;
+	}
+	.bttn_sub {
+    height: 85px;
+    width: 145px;
+	}
+	.bttn_wallet {
+    float: right;
+    width: 135px;
+    height: 86px;
+	}
+	.searchbox2 {
+    width: 295px;
+	}
+}
+
+@media screen and (min-width:373px) and (max-width:378px){
+	.backgrnd{
+			margin-top:73px;
+			padding-bottom:0px;
+			}
+	.rowimg2 {
+    margin-left: 33px;
+			}
+	.drop {
+    margin-left: 45px;
+	}	
+	.drop2 {
+    margin-left: 192px;
+	}
+	.bttn_calender {
+    height: 80px;
+    width: 120px;
+	}
+	.bttn_sub {
+    height: 80px;
+    width: 120px;
+	
+	}
+	.bttn_wallet {
+    float: right;
+    width: 130px;
+    height: 80px;
+	}
+	.searchbox2 {
+    width: 255px;
+	}
+}
+
+@media screen and (min-width:381px) and (max-width:386px){
+	.backgrnd{
+			margin-top:73px;
+			padding-bottom:0px;
+			}
+	.rowimg2 {
+    margin-left: 33px;
+			}
+	.drop {
+    margin-left: 45px;
+	}	
+	.drop2 {
+    margin-left: 192px;
+	}
+	.bttn_calender {
+    height: 80px;
+    width: 125px;
+	}
+	.bttn_sub {
+    height: 80px;
+    width: 125px;
+	
+	}
+	.bttn_wallet {
+    float: right;
+    width: 130px;
+    height: 80px;
+	}
+	.searchbox2 {
+    width: 268px;
+	}
+}
+
+@media screen and (min-width:358px) and (max-width:363px){
+	.backgrnd{
+			margin-top:73px;
+			padding-bottom:0px;
+			}
+	.rowimg2 {
+    margin-left: 25px;
+			}
+	.drop {
+    margin-left: 45px;
+	}	
+	.drop2 {
+    margin-left: 192px;
+	}
+	.bttn_calender {
+    height: 80px;
+    width: 120px;
+	}
+	.bttn_sub {
+    height: 80px;
+    width: 118px;
+	
+	}
+	.bttn_wallet {
+    float: right;
+    width: 118px;
+    height: 80px;
+	}
+	.searchbox2 {
+    width: 240px;
+	}
+}
+
+/*------------------ css for mainpage----------- */
+
+.bodymenupage{
+	background-color:#000c;
+}
+
+.menunav{
+	background-color:#00c9ff;
+	height:58px;
+}
+
+.main{
+	width: 244px;
+	background-color: white;
+	padding-top: 22px;
+	margin-top: -20px;
+	margin-left: 0px;
+}
+
+.main_page_logo{
+height: 126px;
+margin-left: 39px;
+}
+
+.main_syntax{
+color:#6890ff;
+font-size:21px;	
+}
+
+.glymenu{
+	margin-right:8px;
+}
+
+
+
+
+
+
+

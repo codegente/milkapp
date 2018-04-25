@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<!-- Mirrored from kodeforest.net/html/budh-space/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 22 Mar 2018 08:40:20 GMT -->
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Add New Product</title>
+       
+    
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/style1.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  
+	  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+	
+	
+	
+	</head>
+	<body>
+	
+	<nav class="navbar"  style="background-color:#00c9ff;">
+	
+	</nav>
+	
+	<div class="container-fluid">
+	       <div class="panel panel-default def">
+              <div class="panel-body clr">
+			  <span class="glyphicon glyphicon-arrow-left" style="float:left;font-size:18px;"></span><b> ADD NEW PRODUCT</b></div>
+          </div>
+
+		  <div class="panel panel-default ">
+              <div class="panel-body clrr">
+			    <div id="imaginary_container"> 
+                <div class="input-group stylish-input-group" >
+                    <input type="text" class="form-control searchh"  placeholder="SEARCH PRODUCTS">
+					
+					
+                </div>
+				<span class="glyphicon glyphicon-search searchbutton"></span>
+               </div>
+			  
+			</div>
+          </div>
+		  
+		<div>  
+	          <img src="img/milkbottle.jpg" class="immg">
+	    </div> 
+		<div class="panel panel-default second_panel">
+            <div class="panel-body">
+	          <div class="set">
+		  <h3><b>Buffalo Milk<b></h3>
+		  <h4><i class="quantityy">80.00 Per Lt.</i></h4><hr style="margin-top: -5px;">
+		  
+		  		  <h4 class="quantityy1"><i>Quantity</i></h4></div>
+		  		  <div class="input-group">
+                                    <span class="input-group-btn">
+                                        <button type="button" class="quantity-left-minus btn btn-danger btn-number"  data-type="minus" data-field="">
+                                          <span class="glyphicon glyphicon-minus"></span>
+                                        </button>
+                                    </span>
+                                    <input type="text" id="quantity" name="quantity" class="form-control input-number" value="10" min="1" max="100">
+                                    <span class="input-group-btn">
+                                        <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field="">
+                                            <span class="glyphicon glyphicon-plus"></span>
+                                        </button>
+                                    </span>
+                  </div>
+	        </div>
+			
+	    </div>
+		
+		 <button type="button" class="btn butt1"><b>SUBSCRIBE</b></button>
+		  <button type="button" class="btn butt2"><b>DELIVER ONCE</b></button>
+		  <hr>
+		 <p><span class="glyphicon glyphicon-calendar glyphii"></span>
+            <h3 class="product1">START DATE</h3>
+		    <P><b>Wed - 16 APR 2018<b></P>
+		 </p>
+         <hr>
+		<p><span class="glyphicon glyphicon-flash glyphii"></span>
+		  <h3 class="product1">RECHARGE/TOP UP</h3>
+		  <P><b>30 Deliveries<b></P>
+		  <P class="product2">NOT SURE? TAKE A 3 OR 6 DAY TRIAL</P>
+		</p>
+
+		<hr>
+		<p><span class="glyphicon glyphicon-refresh glyphii"></span>
+		  <h3 class="product1">REPEAT</h3>
+		  <P><b>EVERY DAY<b></P>
+		  <P class="product2">MON, TUE, WED, THU, FRI, SAT, SUN</P>
+	    </p>
+		<hr>
+        <p><span class="glyphicon glyphicon-bell glyphii"></span>
+		  <h3 class="product1">DOOR BELL</h3>
+		  <P><b>DON’T RING<b></P>
+        </p>
+		 <hr> 
+		  
+<div id="footer">
+		<button type="button" class="btn subscription"><b>SUBSCRIPTION</b>
+		<span class="glyphicon glyphicon-arrow-right glyphicsubs"></span></button>
+</div>
+		  
+		  
+		  
+		</div>  
+	<script>$(document).ready(function(){
+
+var quantitiy=0;
+   $('.quantity-right-plus').click(function(e){
+        
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+        var quantity = parseInt($('#quantity').val());
+        
+        // If is not undefined
+            
+            $('#quantity').val(quantity + 1);
+
+          
+            // Increment
+        
+    });
+
+     $('.quantity-left-minus').click(function(e){
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+        var quantity = parseInt($('#quantity').val());
+        
+        // If is not undefined
+      
+            // Increment
+            if(quantity>0){
+            $('#quantity').val(quantity - 1);
+            }
+    });
+    
+});	  
+		  
+	</script>	  
+		  
+</body></html>

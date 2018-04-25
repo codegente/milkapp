@@ -1,0 +1,295 @@
+.centr{
+	width: 220px;
+	height:150px;
+	margin:0 auto;
+}
+.cow_img{
+	width:100%;
+	height:180px;
+	margin-top:10px;
+}
+
+.redi{
+	border: 3px solid #00c9ff;
+border-radius: 7px;
+}
+.butn{
+	border-radius: 7px;
+	 width: 100%;
+    background-color: #2424e7cc;
+}
+.verifybox{
+	   text-align:center; 
+   
+}
+ .codebox{
+	border-width: 0px 0px 2px 0px;
+	border-bottom-color: black;
+    width: 150px;
+    /* margin-left: 78px; */
+	text-align:center;
+	margin: 0 auto;
+}
+ 
+
+.inner-addon {
+  position: relative;
+}
+
+/* style glyph */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none; 
+     margin-top: -6px;
+}
+
+
+
+/* align glyph */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+.footer-image-container {
+/*   margin: 0 auto; */
+  width: 100%;
+/*   height: 1417px; */
+  }
+
+  .footer-image {
+      bottom: 0;
+    position: absolute;
+    height: 187px;
+    margin-top: 17px;
+    width: 100%;
+}
+
+ .def{
+	margin-bottom:0px;
+	margin-left: -25px;
+margin-right: -15px;
+margin-top:-21px;
+ }
+ .clr{
+	padding: 20px;
+text-align: center;
+background-color: #6890ef;
+
+}
+ .clrr{
+	padding: 11px;
+text-align: center;
+background-color: #00c9ff;
+margin-top: -2px;
+}
+
+.searchh{
+	padding-right:80px;
+}
+
+.searchbutton{
+	float: right;
+	margin-top: -30px;
+	color:white;
+}
+
+.quantityy{
+	color:#2db0d4;
+}
+
+.quantityy1{
+	color:#2db0d4;
+	margin-top:-23px;
+}
+	
+.butt1{
+	width: 143px;
+	background-color: #95e0f9;
+	color: black;
+}
+
+.butt2{
+	width: 143px;
+	color: #2db0dd;
+	background-color: white;
+	border-color: #0c8eba;
+}	
+	
+.product1{
+	color:#2db0dd;
+}
+
+.product2{
+	color:#63a9c3;
+}
+	
+.glyphii{
+	float:right;
+	color:#6890ef;
+}
+.subscription{
+	background-color: #6890ff;
+	color:white;
+	margin-left: -16px;
+	border-radius: 0px;
+	padding-right: 133px;
+	padding-bottom: 30px;
+	font-size: 23px;
+	margin-top:7px;
+}
+
+.glyphicsubs{
+	float: right;
+	margin-right: -116px;
+	font-size: 27px;
+}
+
+	
+#imaginary_container{
+  
+}
+.stylish-input-group .input-group-addon{
+    background: white !important; 
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+.immg{
+	width: 121px;
+	height: 132px;
+	margin-left: -1px;
+}
+
+
+.panel_milk{
+	margin-right: 180px;
+	padding-bottom: -25px;
+	border-color:#6890ef;
+}
+
+.set{
+	  text-align:center;
+	  margin-top:-32px;
+}
+.second_panel{
+	margin-top: -134px;
+	width: 169px;
+	height: 132px;
+	margin-left: 122px;
+	border-color: white;
+}
+
+@media screen and (min-width:412px) and (max-width:420px){
+	.second_panel{
+	margin-top: -145px;
+	width: 194px;
+	height: 151px;
+	margin-left: 183px;
+	border-color: white;
+	}
+	
+	.immg{
+	width: 155px;
+	height: 155px;
+	margin-left: 9px;
+	}
+	
+	.registerform{
+	margin-top:56px;
+	}
+	
+	.butt2 {
+    width: 180px;
+	}
+	
+	.butt1 {
+    width: 180px;
+	}
+	.subscription{
+		padding-right:225px;
+	}
+	.glyphicsubs{
+		margin-right:-200px;
+	}
+}
+
+@media screen and (min-width:370px) and (max-width:378px){
+	.second_panel{
+	margin-top: -144px;
+	width: 194px;
+	height: 145px;
+	margin-left: 164px;
+	border-color: white;
+	}
+	
+	.immg{
+	width: 155px;
+	height: 155px;
+	margin-left: 9px;
+	}
+	
+	.butt2 {
+    width: 162px;
+	}
+	
+	.butt1 {
+    width: 162px;
+	}
+	.subscription{
+		padding-right:189px;
+	}
+	.glyphicsubs{
+		margin-right:-173px;
+	}
+}
+
+@media screen and (min-width:357px) and (max-width:362px){
+	.second_panel{
+	margin-top: -136px;
+width: 194px;
+height: 145px;
+margin-left: 142px;
+border-color: white;
+	}
+	
+	.immg{
+	width: 140px;
+	height: 140px;
+	margin-left: -1px;
+	}
+	
+	.butt2 {
+    width: 162px;
+	}
+	
+	.butt1 {
+    width: 162px;
+	}
+	.subscription{
+		padding-right:174px;
+	}
+	.glyphicsubs{
+		margin-right:-158px;
+	}
+}
+
+@media screen and (min-width:380px) and (max-width:386px){
+	.registerform{
+	margin-top:32px;
+	}
+}
+
+.navig{
+	background-color:#00c9ff;
+}
+
